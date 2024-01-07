@@ -1,0 +1,51 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.mary{
+color: var(--Dark-01, #181818);
+font-size: 45px;
+font-weight: 800;
+
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(50, 56, 56);
+}
+.r{
+    color: #ffae00;
+}
+.button{
+ border-radius: 5px;
+ background-color: #ffae00;
+ border: 0;
+ color: white;
+font-size: 20px;
+font-weight: 700;
+padding: 18px 35px;
+
+}
+.header{
+background-color: antiquewhite;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.profile-picture{
+    width: 500px;
+}
